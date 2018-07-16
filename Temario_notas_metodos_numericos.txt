@@ -1,3 +1,5 @@
+Agregado al repositorio: 
+
 Conceptos básicos
  *Bites, bytes, etc.
  *Representación decimal
