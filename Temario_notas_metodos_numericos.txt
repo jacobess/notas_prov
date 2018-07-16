@@ -1,0 +1,105 @@
+Conceptos básicos
+ *Bites, bytes, etc.
+ *Representación decimal
+ *Representación decimal de punto flotante
+ *Error de corte
+ *Epsilon 
+ *Error de redondeo
+ *Error de truncamiento
+ *Velocidad de convergencia
+ *Costo computacional
+
+Derivadas numéricas 
+ *Primera derivada
+ *Segunda derivada
+
+Solución de ecuaciones Algebraicas
+ *Métodos cerrados
+	>Bisección
+	>Falsa-Posición
+ *Métodos abiertos
+	>Newton-Rapson 
+	>Secante 
+	>Secante con backtracking
+
+Solución de sistemas de ecuaciones 
+ *Descomposicion matricial
+	>Matriz diagonal
+	>Matriz triangular inferior
+	>Matriz triangular superir
+ *Métodos directos
+	>Eliminación Gaussiana
+	>Factorización LU Dolittle
+	>Factorización LU Crout
+	>Factorización LLT
+	>Factorización LDLT
+	>Factorización UTDU
+ *Métodos iterativos
+	>Jacobi
+	>Gauss-Seidel
+	>Gauss-Seidel [SOR]
+	>Derivadas parciales [Este tema es 	necesario para entender GRADIENTE CONJUGADO 	pero no es un método de solución y también 		los conceptos de gradiente de un campo 	escalar, divergencia de un campo vectorial, 	Rotacional de un campo]
+	>Gradiente conjugado
+	>Gradiente Biconjugado
+	>Cálculo de inversas
+ *Analisis de sencibilidad de sistemas lineales
+	>Sistemas mal condicionados
+	>Número de condición de una matriz
+	>Norma Euclidiana
+	>Norma 1
+	>Norma 2
+	>Norma infinito
+
+Almacenamineto reducido
+ *Ancho de banda
+	>Matrices simetricas
+ *Método de compresión de renglones
+	>Skylines
+
+Sistemas no lineales de ecuaciones
+
+Cálculo de eigenvalore y eigenvectores
+ *Método de la potencia
+ *Método de la potencia inversa
+ *Método del polinomio
+ *Intermedios Shiffting
+ *Busquedad de determinantes
+
+Interpolación
+ *Interpolación Lineal
+	>Minimos cuadrados
+	>Interpolación excel
+ *Interpolación no lineal
+	>Método Gauss-Newton
+ *Interpolación por segmentarias
+	>Clase 0
+	>Clase 1
+	>Clase 2
+
+Ingración numérica
+ *Newton-Cotes
+ *Cuadraturas Gaussianas
+
+Ingrales múltiples
+ *Newton-Cotes
+ *Cuadraturas Gaussianas
+
+Ecuaciones diferenciales
+ *Prolemas de valor inicial con diferencias   ordinarias
+ *Método de Euler
+ *Método de Hew
+ *Método de punto medio 
+ *Método de Runge-Kutta
+	>orden 1
+	>orden 2
+	>orden 3
+	>orden 4
+ *Regla de Simpson 1/3 [Tema extra de clase   de Ceseña]
+ *Regla de Simpson 3/8 [Tema extra de clase   de Ceseña]
+ *Funciones diferenciales de segundo orden
+
+Problemas de valores en la frontera
+ *Método disparo 
+ *Método de diferencias finitas
+ *Caso particulas función diferencial lineal
+ *Moleculas computacionales [Tema extra de clase     de Ceseña]
