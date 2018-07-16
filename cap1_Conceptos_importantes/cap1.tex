@@ -1,0 +1,91 @@
+\chapter{Conceptos importantes}
+Computadora : M\'aquina electronica de c\'alculo, compuesta por circuitos l\'ogicos que generan conexiones.
+\\ \\
+Componentes de circuitos lógicos 
+
+\begin{itemize}
+\item Amplificador operacional:
+\item Biestable:
+\item PDL:
+\item Diac:
+\item Diodo:
+\item FGPA: 
+\item Memoria:
+\item Microprocesador:
+\item Pila:
+\item Tiristor:
+\item Puerta l\'ogica:
+\item Transistor:
+\item Triac: 
+\end{itemize}
+
+%----Faltan imagenes de los elementos----%
+
+%----Tabla de almacenamiento de datos-----%
+
+Representaci\'on de punto flotante \\
+%----Ilustración de celdas-----%
+$a \times 10^b$\\
+$1 \textgreater |a| \geq 0.1$\\
+exceptuando cuando $a=0.0b$ \\
+
+\begin{tabular}{| c | c |}
+\hline
+Tipo de datos & espacio de almacenamiento\\
+\hline 
+float& 4 bytes\\
+double & 8 bytes\\
+long double & 16 bytes\\
+\hline
+\end{tabular}
+\\ \\
+Error de corte:
+\\ \\
+Epsil\'on de la m\'aquina (EPS): El EPS es el n\'umero m\'as pequeño tal que $(1+EPS)\textgreater1$ para la m\'aquina que realiza la suma.
+El siguiente c\'odigo permite conocer el epsil\'on de tu computadora.
+%----Código para el epsilón----%
+\\ \\
+Error de redondeo: P\'erdida de cifras decimales a medida que se aumenta el exponente.
+%---Ilustración de recta numérica---%
+\\ \\
+Error de truncamiento \\
+Teorema de Taylor: Si $f(x)$ es una funci\'on suave en un intervalo abierto $(a,b)$ que contiene a $c$, para un n\'umero $c+h$ contenido en $(a,b)$ \\
+$f(c+h)=f(c)+f'(c)h+f''(c)\frac{h^3}{3!}+f'''(c)\frac{h^3}{3!}+...+f^n(c)\frac{h^n}{n!}$ \\
+El hecho de perder cifras debido a limitar el resultado a ciertas decimale es a lo que llamamos error de truncamiento.
+\\ \\
+Complejidad algor\'itmica y costo computacional:
+%---Diagramas---%
+\\ \\ 
+Tiempo de tendencia a funciones\\
+\begin{tabular}{| c | c |}
+\hline
+$log(n)$ & \\
+$n$ & Tiempos lineales \\ 
+$nlog(n)$ & \\
+\hline
+$n^2$ & \\
+$n^3$ & Tiempos polin\'omicos \\ 
+$n^4$ & \\
+\hline
+$2^n$ & NP-Duro \\
+$n!$ & NP-Cmpleto\\
+\hline
+\end{tabular}
+%-Ilustracioes de graficas-%
+\\ \\
+Convergencia\\
+Un ciclo de c\'alculo se traduce a una iteraci\'on 
+%--Ilustración de iteración--%
+\\
+Sea $x_k$ una sucesión de valores. Si existe un n\'umero $x^*$ tal que\\
+$\lim\limits_{k\to\infty}x_k=x^*$ \\
+La sucesi\'on converge a $x^*$, si eso no ocurre, entonces la suseci\'on diverge.
+\\ \\ 
+Velocidad de convergencia\\ 
+${x_k}$ converge s $x^*$ \\
+\begin{enumerate}
+\item Si existe un $k\geq 1$ a partir del cual se observa que $|x_{k+1}-x^*|\leq C|x_k-x^*|$ donde $C$ es constante entre $(0,1)$ se tiene velocidad de convergencia lineal.
+\item Igual que el anterior pero $|x_{k+1}-x^*|\leq c_k|x_k-x^*|$ con $c_k\exists(0,1)$ y $C_k\to0$ cuando $k\to\infty$, se tiene  velocidad de convergencia lineal.
+\item A partir de la iteraci\'on $k$ se observa que\\
+$|x_{k+1}-x^*|\leq C{|x_k-x^*}^P$ donde $C$y $P$ son constantes $C\exists(0,1)$ y $P\geq2$, se tiene convergencia de orden $P$
+\end{enumerate}
