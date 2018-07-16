@@ -1,4 +1,5 @@
 Agregado al repositorio: 
+(linea agregada solo de ejemplo. Eliminar despues) 
 
 Conceptos básicos
  *Bites, bytes, etc.
